@@ -4,9 +4,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * The most of those information can be found in GTSRB_TensorFlow_MobileNet.ipynb
- */
+
 public class GtsrbModelConfig {
     public static String MODEL_FILENAME = "gtsrb_model.lite";
 
@@ -18,7 +16,6 @@ public class GtsrbModelConfig {
     public static final int IMAGE_MEAN = 0;
     public static final float IMAGE_STD = 255.0f;
 
-    //This list can be taken from notebooks/output/labels_readable.txt 
     public static final List<String> OUTPUT_LABELS = Collections.unmodifiableList(
             Arrays.asList(
                     "20_speed",
