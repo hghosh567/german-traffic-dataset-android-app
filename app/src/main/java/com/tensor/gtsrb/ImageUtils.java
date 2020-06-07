@@ -6,8 +6,8 @@ import android.graphics.Paint;
 
 public class ImageUtils {
     /**
-     * Make bitmap appropriate size for used model (224x224x). 
-     * We don't do any preprocessing, because training dataset didn't have any...
+     * Make bitmap appropriate size for used model (28x28 px). 
+     
      */
     public static Bitmap prepareImageForClassification(Bitmap bitmap) {
         Paint paint = new Paint();
